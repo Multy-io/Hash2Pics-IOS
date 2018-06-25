@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		1B453FF3605A61E27FFABA12E03F4F63 /* Pods-Hash2Pics_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0331B74E1AC157F9BA43C498BBDD1904 /* Pods-Hash2Pics_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		337B21AA7ABB4AB1E25B9543BA0A0A36 /* Hash2Pics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC12FDBE73045E6AA65A15F9316B1159 /* Hash2Pics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D253670C18D398D219646B401A9691C /* Hash2Pics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0A360B2F001149AE1182E94F8F195F /* Hash2Pics-dummy.m */; };
 		5F20BFABADC343A175541C35E4018FB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		79FDD0D4BE78493FE244A802E1477331 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		852EFAE320E1364C003B542C /* AvaConstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852EFAE220E1364C003B542C /* AvaConstructor.swift */; };
-		852EFAE520E13666003B542C /* NumberContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852EFAE420E13666003B542C /* NumberContainer.swift */; };
-		852EFAE720E1367A003B542C /* TextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 852EFAE620E13679003B542C /* TextLayer.swift */; };
+		61B3F91D91A38AEE322014048240389A /* AvaConstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679AB605B5E73147FF61495B461A6752 /* AvaConstructor.swift */; };
 		975E99F2D0EBE641C4B7FD1319BABB43 /* Pods-Hash2Pics_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E26C4C1E2884629768FBAB42BE25CC4E /* Pods-Hash2Pics_Example-dummy.m */; };
 		A12DE140BBB6194086045B9C83CDD5C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		A42A2AD92999BF0C0229B4C3C7605975 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B3CE2B7F2623E2F86F20A9EBD7CBF94D /* Pods-Hash2Pics_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E6DD5ABB3C648F55108430A7F13F59 /* Pods-Hash2Pics_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D7CA531203AA8546E053322D04E7A5BC /* Hash2Pics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50D60BC2ED6075D6F172D126F7038417 /* Hash2Pics-dummy.m */; };
+		BC19C2688E46B97000F444C401440A45 /* NumberContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1A85AC3CAC17EDF8895E13C43A2BB /* NumberContainer.swift */; };
+		CACAA1DC0D720DFE40A5D8BC94840394 /* TextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE2107F1C9DB0720AC9C0C11F3A995D /* TextLayer.swift */; };
 		E88213190EE3FA25578F598CD5A10522 /* Pods-Hash2Pics_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BCCF18D87F0490BBA7A302B83202B1 /* Pods-Hash2Pics_Tests-dummy.m */; };
+		FD95C524C933960A453B75A77A8A71EC /* Hash2Pics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CB388ACF0DA624476D5ABC7D25F73AD /* Hash2Pics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +33,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = BF3810DFD19DA18636AAD5727F5F5638;
+			remoteGlobalIDString = F7C54FC90347C324DEECCC255D796A32;
 			remoteInfo = Hash2Pics;
 		};
 /* End PBXContainerItemProxy section */
@@ -41,41 +41,41 @@
 /* Begin PBXFileReference section */
 		0331B74E1AC157F9BA43C498BBDD1904 /* Pods-Hash2Pics_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hash2Pics_Example-umbrella.h"; sourceTree = "<group>"; };
 		0809505BB1CBDA5F47B544B7289D6FFC /* Pods-Hash2Pics_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hash2Pics_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		10F3696A36A5BD8DBDB55FA59D194756 /* Hash2Pics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hash2Pics.xcconfig; sourceTree = "<group>"; };
+		08226BCF8E00383E167AB2F48261988A /* Hash2Pics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hash2Pics.xcconfig; sourceTree = "<group>"; };
+		0FF51C0B75E892CB265F2330A39BC7AB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		1979B96B88CA4AA30E4B1ACD83E56FE0 /* Pods-Hash2Pics_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hash2Pics_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		22520AFE6DD1DB9D5A38C4A5C614D5AF /* Pods-Hash2Pics_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hash2Pics_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		23A97B1FCCC150F6C2D83280D65CF1DD /* Hash2Pics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Hash2Pics.modulemap; sourceTree = "<group>"; };
+		2CB388ACF0DA624476D5ABC7D25F73AD /* Hash2Pics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hash2Pics-umbrella.h"; sourceTree = "<group>"; };
 		2DD0BF19498049AF5B165FAE888B7E0C /* Pods-Hash2Pics_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hash2Pics_Example-resources.sh"; sourceTree = "<group>"; };
 		322D4222E1165CA16283CE88A94D85E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50D60BC2ED6075D6F172D126F7038417 /* Hash2Pics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hash2Pics-dummy.m"; sourceTree = "<group>"; };
-		5962BA6C3366D23984335EC1FF744B34 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5AB3F962D230EC17B50E13937C9BD722 /* Hash2Pics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Hash2Pics.modulemap; sourceTree = "<group>"; };
+		3D0A360B2F001149AE1182E94F8F195F /* Hash2Pics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Hash2Pics-dummy.m"; sourceTree = "<group>"; };
+		40814F1EAAB651BB70E2A67F3ACBD52C /* Hash2Pics-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hash2Pics-prefix.pch"; sourceTree = "<group>"; };
 		5F349EF5594091E6DFA9A7B6F242A695 /* Pods-Hash2Pics_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hash2Pics_Example-frameworks.sh"; sourceTree = "<group>"; };
-		6133BB7383EB70B0C27140AF282A8477 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		679AB605B5E73147FF61495B461A6752 /* AvaConstructor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AvaConstructor.swift; path = Hash2Pics/Classes/AvaConstructor.swift; sourceTree = "<group>"; };
+		67D640D9483B9099BBD1C08E8FE6ED1C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		6ABB3BCCC3D65135163EEA4D7D713DE1 /* Pods-Hash2Pics_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hash2Pics_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		78BDC6302D6FB85D4FD18A1B3391ACCF /* Hash2Pics.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Hash2Pics.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		834C370856BA38C49E98CBE021D7790B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		852EFAE220E1364C003B542C /* AvaConstructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvaConstructor.swift; sourceTree = "<group>"; };
-		852EFAE420E13666003B542C /* NumberContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberContainer.swift; sourceTree = "<group>"; };
-		852EFAE620E13679003B542C /* TextLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextLayer.swift; sourceTree = "<group>"; };
-		87AE0F94882093F1055127FC92D4D27B /* Hash2Pics-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hash2Pics-prefix.pch"; sourceTree = "<group>"; };
+		83C1A85AC3CAC17EDF8895E13C43A2BB /* NumberContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumberContainer.swift; path = Hash2Pics/Classes/NumberContainer.swift; sourceTree = "<group>"; };
 		92DC66D7D4602F5F2A091FCAD868E7A0 /* Pods-Hash2Pics_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hash2Pics_Example.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C28F9B7DC9D23A35A92F68791DAC1BE /* Pods-Hash2Pics_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hash2Pics_Tests.modulemap"; sourceTree = "<group>"; };
 		9C5462EA7677232998592B1FF063D764 /* Pods-Hash2Pics_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hash2Pics_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A4B9B6644BACD4BB576FE6F2AAAA96B9 /* Pods-Hash2Pics_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hash2Pics_Example.modulemap"; sourceTree = "<group>"; };
-		A7DDDEBA04E3A07F43AEF33CEB2050BC /* Hash2Pics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hash2Pics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6DC4E84B187B4AA40EC1B4240B07FE2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7DDDEBA04E3A07F43AEF33CEB2050BC /* Hash2Pics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hash2Pics.framework; path = Hash2Pics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8B0DD3947B2C5CF8E1BCA45D8A74A9E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC827CE92FB40E20FACD9134E4D30D82 /* Pods-Hash2Pics_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hash2Pics_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B6E6DD5ABB3C648F55108430A7F13F59 /* Pods-Hash2Pics_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hash2Pics_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C26D878CDB2EFEF0F86C8814745D4A4A /* Pods-Hash2Pics_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hash2Pics_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C8D579BA1938150BBF34AC0DC46ABFC3 /* Pods-Hash2Pics_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hash2Pics_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D3BCCF18D87F0490BBA7A302B83202B1 /* Pods-Hash2Pics_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hash2Pics_Tests-dummy.m"; sourceTree = "<group>"; };
-		D4B830455B60EDBD71C55FE67B8078DD /* Pods_Hash2Pics_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hash2Pics_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC12FDBE73045E6AA65A15F9316B1159 /* Hash2Pics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hash2Pics-umbrella.h"; sourceTree = "<group>"; };
+		D4B830455B60EDBD71C55FE67B8078DD /* Pods_Hash2Pics_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Hash2Pics_Example.framework; path = "Pods-Hash2Pics_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC12DB7121D31B4394540C775242B0A /* Hash2Pics.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Hash2Pics.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E26C4C1E2884629768FBAB42BE25CC4E /* Pods-Hash2Pics_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hash2Pics_Example-dummy.m"; sourceTree = "<group>"; };
-		F1C2F92E68CF45E0D62FC51852E47D2F /* Pods_Hash2Pics_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hash2Pics_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C2F92E68CF45E0D62FC51852E47D2F /* Pods_Hash2Pics_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Hash2Pics_Tests.framework; path = "Pods-Hash2Pics_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8BCF9AE2BF48B0ADBA049DF343FC591 /* Pods-Hash2Pics_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hash2Pics_Tests-resources.sh"; sourceTree = "<group>"; };
+		FDE2107F1C9DB0720AC9C0C11F3A995D /* TextLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextLayer.swift; path = Hash2Pics/Classes/TextLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,19 +87,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		67175B0AE0C523CECA727EB4579F3357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A42A2AD92999BF0C0229B4C3C7605975 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CED53B854DB2866860419F31E931D559 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A12DE140BBB6194086045B9C83CDD5C2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FF7391E8CAF7C31C8D935CF98F80C06F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				79FDD0D4BE78493FE244A802E1477331 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,6 +133,16 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
+		34030ED3E8E66D8C74E14191F689BE6B /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DFC12DB7121D31B4394540C775242B0A /* Hash2Pics.podspec */,
+				0FF51C0B75E892CB265F2330A39BC7AB /* LICENSE */,
+				67D640D9483B9099BBD1C08E8FE6ED1C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		497DCA891B8120F1A28D865A518F0199 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,36 +153,28 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		523D7C044FF71CCAA2630626DF73A3F7 /* Hash2Pics */ = {
-			isa = PBXGroup;
-			children = (
-				D8A9E4B8C2FAB332E1375E89E6F769E0 /* Pod */,
-				D1151D3C38400B6063E85AA3A187C7AD /* Support Files */,
-				852EFAE220E1364C003B542C /* AvaConstructor.swift */,
-				852EFAE420E13666003B542C /* NumberContainer.swift */,
-				852EFAE620E13679003B542C /* TextLayer.swift */,
-			);
-			name = Hash2Pics;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				86EA625846776761F4EC5E31336E3E8A /* Development Pods */,
+				D271FBDE4E606178BA3C81F9558A57DB /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				497DCA891B8120F1A28D865A518F0199 /* Products */,
 				33FED634943E7A8F41ADB4FC58A19297 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		86EA625846776761F4EC5E31336E3E8A /* Development Pods */ = {
+		A77C65730E2E077B699EA6F9CA1CF7BF /* Hash2Pics */ = {
 			isa = PBXGroup;
 			children = (
-				523D7C044FF71CCAA2630626DF73A3F7 /* Hash2Pics */,
+				679AB605B5E73147FF61495B461A6752 /* AvaConstructor.swift */,
+				83C1A85AC3CAC17EDF8895E13C43A2BB /* NumberContainer.swift */,
+				FDE2107F1C9DB0720AC9C0C11F3A995D /* TextLayer.swift */,
+				34030ED3E8E66D8C74E14191F689BE6B /* Pod */,
+				F43900677620D658962B797974C17F7F /* Support Files */,
 			);
-			name = "Development Pods";
+			name = Hash2Pics;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -201,18 +203,12 @@
 			path = "Target Support Files/Pods-Hash2Pics_Tests";
 			sourceTree = "<group>";
 		};
-		D1151D3C38400B6063E85AA3A187C7AD /* Support Files */ = {
+		D271FBDE4E606178BA3C81F9558A57DB /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5AB3F962D230EC17B50E13937C9BD722 /* Hash2Pics.modulemap */,
-				10F3696A36A5BD8DBDB55FA59D194756 /* Hash2Pics.xcconfig */,
-				50D60BC2ED6075D6F172D126F7038417 /* Hash2Pics-dummy.m */,
-				87AE0F94882093F1055127FC92D4D27B /* Hash2Pics-prefix.pch */,
-				DC12FDBE73045E6AA65A15F9316B1159 /* Hash2Pics-umbrella.h */,
-				5962BA6C3366D23984335EC1FF744B34 /* Info.plist */,
+				A77C65730E2E077B699EA6F9CA1CF7BF /* Hash2Pics */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/Hash2Pics";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -223,32 +219,36 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D8A9E4B8C2FAB332E1375E89E6F769E0 /* Pod */ = {
+		F43900677620D658962B797974C17F7F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				78BDC6302D6FB85D4FD18A1B3391ACCF /* Hash2Pics.podspec */,
-				6133BB7383EB70B0C27140AF282A8477 /* LICENSE */,
-				834C370856BA38C49E98CBE021D7790B /* README.md */,
+				23A97B1FCCC150F6C2D83280D65CF1DD /* Hash2Pics.modulemap */,
+				08226BCF8E00383E167AB2F48261988A /* Hash2Pics.xcconfig */,
+				3D0A360B2F001149AE1182E94F8F195F /* Hash2Pics-dummy.m */,
+				40814F1EAAB651BB70E2A67F3ACBD52C /* Hash2Pics-prefix.pch */,
+				2CB388ACF0DA624476D5ABC7D25F73AD /* Hash2Pics-umbrella.h */,
+				A6DC4E84B187B4AA40EC1B4240B07FE2 /* Info.plist */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/Hash2Pics";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		164CFEA6DE121270312B631B410148A1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD95C524C933960A453B75A77A8A71EC /* Hash2Pics-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		23B8756F405DF302D098FBD9EABA3CB9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B3CE2B7F2623E2F86F20A9EBD7CBF94D /* Pods-Hash2Pics_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		653A71A89AA07C71D9D79548A01C4657 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				337B21AA7ABB4AB1E25B9543BA0A0A36 /* Hash2Pics-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,23 +281,6 @@
 			productReference = F1C2F92E68CF45E0D62FC51852E47D2F /* Pods_Hash2Pics_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BF3810DFD19DA18636AAD5727F5F5638 /* Hash2Pics */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 7CCABFEFF4E9065279AD8DE76B16F991 /* Build configuration list for PBXNativeTarget "Hash2Pics" */;
-			buildPhases = (
-				B40E406C8DDBED4C08DD36AFBD626DFB /* Sources */,
-				FF7391E8CAF7C31C8D935CF98F80C06F /* Frameworks */,
-				653A71A89AA07C71D9D79548A01C4657 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Hash2Pics;
-			productName = Hash2Pics;
-			productReference = A7DDDEBA04E3A07F43AEF33CEB2050BC /* Hash2Pics.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		D619C499D768686C24ECC9CD833EF239 /* Pods-Hash2Pics_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = ECB1D359BDDF3F2C87A8953AD39BC463 /* Build configuration list for PBXNativeTarget "Pods-Hash2Pics_Example" */;
@@ -314,6 +297,23 @@
 			name = "Pods-Hash2Pics_Example";
 			productName = "Pods-Hash2Pics_Example";
 			productReference = D4B830455B60EDBD71C55FE67B8078DD /* Pods_Hash2Pics_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7C54FC90347C324DEECCC255D796A32 /* Hash2Pics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 416501C117BB29D46F037B4532A4DD06 /* Build configuration list for PBXNativeTarget "Hash2Pics" */;
+			buildPhases = (
+				5A6DB2A23EFD9436B52AAB5FF8AC0F48 /* Sources */,
+				67175B0AE0C523CECA727EB4579F3357 /* Frameworks */,
+				164CFEA6DE121270312B631B410148A1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hash2Pics;
+			productName = Hash2Pics;
+			productReference = A7DDDEBA04E3A07F43AEF33CEB2050BC /* Hash2Pics.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -337,7 +337,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BF3810DFD19DA18636AAD5727F5F5638 /* Hash2Pics */,
+				F7C54FC90347C324DEECCC255D796A32 /* Hash2Pics */,
 				D619C499D768686C24ECC9CD833EF239 /* Pods-Hash2Pics_Example */,
 				26564C3416B37F2744C68F64CB51A180 /* Pods-Hash2Pics_Tests */,
 			);
@@ -353,14 +353,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B40E406C8DDBED4C08DD36AFBD626DFB /* Sources */ = {
+		5A6DB2A23EFD9436B52AAB5FF8AC0F48 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				852EFAE520E13666003B542C /* NumberContainer.swift in Sources */,
-				852EFAE720E1367A003B542C /* TextLayer.swift in Sources */,
-				D7CA531203AA8546E053322D04E7A5BC /* Hash2Pics-dummy.m in Sources */,
-				852EFAE320E1364C003B542C /* AvaConstructor.swift in Sources */,
+				61B3F91D91A38AEE322014048240389A /* AvaConstructor.swift in Sources */,
+				3D253670C18D398D219646B401A9691C /* Hash2Pics-dummy.m in Sources */,
+				BC19C2688E46B97000F444C401440A45 /* NumberContainer.swift in Sources */,
+				CACAA1DC0D720DFE40A5D8BC94840394 /* TextLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,13 +384,13 @@
 		85B7D9B31DB8ED18B71131BFE36C929E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Hash2Pics;
-			target = BF3810DFD19DA18636AAD5727F5F5638 /* Hash2Pics */;
+			target = F7C54FC90347C324DEECCC255D796A32 /* Hash2Pics */;
 			targetProxy = E9D83BB66EFA40F3A6E2CA794901DF67 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		134624EAA2A3300270E98024D724E241 /* Release */ = {
+		0E68A3B48EABF6F9BF2BF322EA70AEBB /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0809505BB1CBDA5F47B544B7289D6FFC /* Pods-Hash2Pics_Tests.release.xcconfig */;
 			buildSettings = {
@@ -406,7 +406,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-Hash2Pics_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-Hash2Pics_Tests/Pods-Hash2Pics_Tests.modulemap";
@@ -424,9 +424,9 @@
 			};
 			name = Release;
 		};
-		25B56FC2003110F9C80AEA1A09532FC3 /* Debug */ = {
+		1BA0D17499CFAF4DCA2710AD83674F11 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6ABB3BCCC3D65135163EEA4D7D713DE1 /* Pods-Hash2Pics_Example.debug.xcconfig */;
+			baseConfigurationReference = 1979B96B88CA4AA30E4B1ACD83E56FE0 /* Pods-Hash2Pics_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -438,12 +438,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Hash2Pics_Example/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Hash2Pics_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Hash2Pics_Example/Pods-Hash2Pics_Example.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Hash2Pics_Tests/Pods-Hash2Pics_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -451,50 +451,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		2F14A59D62C0AF58B32345C370EEB097 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 92DC66D7D4602F5F2A091FCAD868E7A0 /* Pods-Hash2Pics_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Hash2Pics_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Hash2Pics_Example/Pods-Hash2Pics_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -547,7 +510,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -557,9 +520,9 @@
 			};
 			name = Debug;
 		};
-		B30FF9CAAFA3CA7AFF0F1B30A4B722FF /* Release */ = {
+		26E338189746C9F871CDE164C6908730 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10F3696A36A5BD8DBDB55FA59D194756 /* Hash2Pics.xcconfig */;
+			baseConfigurationReference = 08226BCF8E00383E167AB2F48261988A /* Hash2Pics.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -582,7 +545,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.1;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -590,7 +553,74 @@
 			};
 			name = Release;
 		};
-		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+		2E2698EF2057024AF290EFFB4618D689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ABB3BCCC3D65135163EEA4D7D713DE1 /* Pods-Hash2Pics_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Hash2Pics_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Hash2Pics_Example/Pods-Hash2Pics_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D813FE61DF1291F6C9F22895CE8BD936 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08226BCF8E00383E167AB2F48261988A /* Hash2Pics.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Hash2Pics/Hash2Pics-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Hash2Pics/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Hash2Pics/Hash2Pics.modulemap";
+				PRODUCT_MODULE_NAME = Hash2Pics;
+				PRODUCT_NAME = Hash2Pics;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -640,7 +670,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -648,41 +678,9 @@
 			};
 			name = Release;
 		};
-		BACAA389EB445CDE0122E435849CEFA7 /* Debug */ = {
+		F889335E5D37D8D143F457AE1D6C90C5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10F3696A36A5BD8DBDB55FA59D194756 /* Hash2Pics.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Hash2Pics/Hash2Pics-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Hash2Pics/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Hash2Pics/Hash2Pics.modulemap";
-				PRODUCT_MODULE_NAME = Hash2Pics;
-				PRODUCT_NAME = Hash2Pics;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EC510F2243AF7E2AC442DCB8408F03BC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1979B96B88CA4AA30E4B1ACD83E56FE0 /* Pods-Hash2Pics_Tests.debug.xcconfig */;
+			baseConfigurationReference = 92DC66D7D4602F5F2A091FCAD868E7A0 /* Pods-Hash2Pics_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -694,12 +692,12 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Hash2Pics_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Hash2Pics_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Hash2Pics_Tests/Pods-Hash2Pics_Tests.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-Hash2Pics_Example/Pods-Hash2Pics_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -707,11 +705,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -719,8 +719,17 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
-				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		416501C117BB29D46F037B4532A4DD06 /* Build configuration list for PBXNativeTarget "Hash2Pics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D813FE61DF1291F6C9F22895CE8BD936 /* Debug */,
+				26E338189746C9F871CDE164C6908730 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -728,17 +737,8 @@
 		439A7999E2A9AE395359CB51DDA11239 /* Build configuration list for PBXNativeTarget "Pods-Hash2Pics_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC510F2243AF7E2AC442DCB8408F03BC /* Debug */,
-				134624EAA2A3300270E98024D724E241 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		7CCABFEFF4E9065279AD8DE76B16F991 /* Build configuration list for PBXNativeTarget "Hash2Pics" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BACAA389EB445CDE0122E435849CEFA7 /* Debug */,
-				B30FF9CAAFA3CA7AFF0F1B30A4B722FF /* Release */,
+				1BA0D17499CFAF4DCA2710AD83674F11 /* Debug */,
+				0E68A3B48EABF6F9BF2BF322EA70AEBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -746,8 +746,8 @@
 		ECB1D359BDDF3F2C87A8953AD39BC463 /* Build configuration list for PBXNativeTarget "Pods-Hash2Pics_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				25B56FC2003110F9C80AEA1A09532FC3 /* Debug */,
-				2F14A59D62C0AF58B32345C370EEB097 /* Release */,
+				2E2698EF2057024AF290EFFB4618D689 /* Debug */,
+				F889335E5D37D8D143F457AE1D6C90C5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

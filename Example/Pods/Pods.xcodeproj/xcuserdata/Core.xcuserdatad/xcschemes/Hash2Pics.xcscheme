@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "BF3810DFD19DA18636AAD5727F5F5638"
+               BlueprintIdentifier = "F7C54FC90347C324DEECCC255D796A32"
                BlueprintName = "Hash2Pics"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "Hash2Pics.framework">
