@@ -39,11 +39,11 @@
 		607FACE51AFB9204008FA782 /* Hash2Pics_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hash2Pics_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		79AF97BFC39ABA5C82FCD0C3 /* Hash2Pics.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = Hash2Pics.podspec; path = ../Hash2Pics.podspec; sourceTree = "<group>"; };
-		96FAEDF0D65848D3B77EEBA5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		79AF97BFC39ABA5C82FCD0C3 /* Hash2Pics.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Hash2Pics.podspec; path = ../Hash2Pics.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96FAEDF0D65848D3B77EEBA5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9978105D7C1D1BAAC8F3C0AD /* Pods_Hash2Pics_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hash2Pics_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB323C9E4002164D14FF3A11 /* Pods-Hash2Pics_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hash2Pics_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hash2Pics_Tests/Pods-Hash2Pics_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B7C1B51F586610AAF3DE7134 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		B7C1B51F586610AAF3DE7134 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CAAB1EA0F30897573D20FAA1 /* Pods_Hash2Pics_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hash2Pics_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F0293F14B5FDC5A1CB0713CB /* Pods-Hash2Pics_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hash2Pics_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hash2Pics_Tests/Pods-Hash2Pics_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FEDB634036B66784AF296B1F /* Pods-Hash2Pics_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hash2Pics_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hash2Pics_Example/Pods-Hash2Pics_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -470,6 +470,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Hash2Pics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
@@ -485,6 +486,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Hash2Pics/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";

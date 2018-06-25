@@ -11,6 +11,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+| Target | Version |
+| ------- | -------- |
+| iOS     | => 8.0  |
+|Swift    | => 4.1  |
+
 ## Installation
 
 Hash2Pics is available through [CocoaPods](https://cocoapods.org). To install

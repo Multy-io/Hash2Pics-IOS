@@ -1,0 +1,16 @@
+PODS:
+  - Hash2Pics (0.1.0)
+
+DEPENDENCIES:
+  - Hash2Pics (from `../`)
+
+EXTERNAL SOURCES:
+  Hash2Pics:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Hash2Pics: 59543bbff3589ee38e8a753c1a49843e5b171bdf
+
+PODFILE CHECKSUM: bab4d3b0b81fa67c9f7be7ec4279ce0386e40170
+
+COCOAPODS: 1.5.0
