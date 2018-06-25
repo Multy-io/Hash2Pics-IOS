@@ -1,7 +1,5 @@
 # Hash2Pics
 
-This is open-source lib for creating awesome avatars from any crypto address
-
 [![CI Status](https://img.shields.io/travis/Pidji/Hash2Pics.svg?style=flat)](https://travis-ci.org/Pidji/Hash2Pics)
 [![Version](https://img.shields.io/cocoapods/v/Hash2Pics.svg?style=flat)](https://cocoapods.org/pods/Hash2Pics)
 [![License](https://img.shields.io/cocoapods/l/Hash2Pics.svg?style=flat)](https://cocoapods.org/pods/Hash2Pics)
