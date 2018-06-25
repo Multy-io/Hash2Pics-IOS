@@ -1,5 +1,5 @@
 //
-//  NumberContainer.swift
+//  NumbersManager.swift
 //  Hash2Pics
 //
 //  Created by Artyom Alekseev on 25.06.2018.
@@ -7,18 +7,17 @@
 
 import UIKit
 
-class NumberContainer: NSObject {
-    var isContainerFilled : Bool {
-        return (numbers != nil && numbers!.count > 0)
+class NumbersManager: NSObject {
+    var isEmpty : Bool {
+        return (numbers == nil || numbers!.count == 0)
     }
-    
     
     private var currentCollectionIndex = 0
     
     private var numbers : [UInt8]?
     
     private var maxNumber: UInt8? {
-        guard isContainerFilled else {
+        guard !isEmpty else {
             return nil
         }
         
@@ -31,8 +30,12 @@ class NumberContainer: NSObject {
         super.init()
     }
     
+    func skipNext() {
+        nextIndex()
+    }
+    
     func nextNumber() -> UInt8? {
-        guard self.numbers != nil && self.numbers!.count > 0 else {
+        guard !isEmpty else {
             return nil
         }
         
@@ -42,8 +45,8 @@ class NumberContainer: NSObject {
         return result
     }
     
-    func nextFraction() -> CGFloat? {
-        guard isContainerFilled else {
+    func nextRatio() -> CGFloat? {
+        guard !isEmpty else {
             return nil
         }
         

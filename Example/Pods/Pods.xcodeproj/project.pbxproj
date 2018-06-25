@@ -10,12 +10,12 @@
 		1B453FF3605A61E27FFABA12E03F4F63 /* Pods-Hash2Pics_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0331B74E1AC157F9BA43C498BBDD1904 /* Pods-Hash2Pics_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D253670C18D398D219646B401A9691C /* Hash2Pics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0A360B2F001149AE1182E94F8F195F /* Hash2Pics-dummy.m */; };
 		5F20BFABADC343A175541C35E4018FB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		61B3F91D91A38AEE322014048240389A /* AvaConstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 679AB605B5E73147FF61495B461A6752 /* AvaConstructor.swift */; };
+		85F73B5F20E18A4F009B6CC0 /* NumbersManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F73B5E20E18A4F009B6CC0 /* NumbersManager.swift */; };
+		85F73B6120E18FFB009B6CC0 /* PictureConstructor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F73B6020E18FFB009B6CC0 /* PictureConstructor.swift */; };
 		975E99F2D0EBE641C4B7FD1319BABB43 /* Pods-Hash2Pics_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E26C4C1E2884629768FBAB42BE25CC4E /* Pods-Hash2Pics_Example-dummy.m */; };
 		A12DE140BBB6194086045B9C83CDD5C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		A42A2AD92999BF0C0229B4C3C7605975 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		B3CE2B7F2623E2F86F20A9EBD7CBF94D /* Pods-Hash2Pics_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6E6DD5ABB3C648F55108430A7F13F59 /* Pods-Hash2Pics_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC19C2688E46B97000F444C401440A45 /* NumberContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C1A85AC3CAC17EDF8895E13C43A2BB /* NumberContainer.swift */; };
 		CACAA1DC0D720DFE40A5D8BC94840394 /* TextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE2107F1C9DB0720AC9C0C11F3A995D /* TextLayer.swift */; };
 		E88213190EE3FA25578F598CD5A10522 /* Pods-Hash2Pics_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D3BCCF18D87F0490BBA7A302B83202B1 /* Pods-Hash2Pics_Tests-dummy.m */; };
 		FD95C524C933960A453B75A77A8A71EC /* Hash2Pics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CB388ACF0DA624476D5ABC7D25F73AD /* Hash2Pics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -42,7 +42,7 @@
 		0331B74E1AC157F9BA43C498BBDD1904 /* Pods-Hash2Pics_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hash2Pics_Example-umbrella.h"; sourceTree = "<group>"; };
 		0809505BB1CBDA5F47B544B7289D6FFC /* Pods-Hash2Pics_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hash2Pics_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		08226BCF8E00383E167AB2F48261988A /* Hash2Pics.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Hash2Pics.xcconfig; sourceTree = "<group>"; };
-		0FF51C0B75E892CB265F2330A39BC7AB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		0FF51C0B75E892CB265F2330A39BC7AB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		1979B96B88CA4AA30E4B1ACD83E56FE0 /* Pods-Hash2Pics_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hash2Pics_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		22520AFE6DD1DB9D5A38C4A5C614D5AF /* Pods-Hash2Pics_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hash2Pics_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		23A97B1FCCC150F6C2D83280D65CF1DD /* Hash2Pics.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Hash2Pics.modulemap; sourceTree = "<group>"; };
@@ -53,27 +53,27 @@
 		40814F1EAAB651BB70E2A67F3ACBD52C /* Hash2Pics-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Hash2Pics-prefix.pch"; sourceTree = "<group>"; };
 		5F349EF5594091E6DFA9A7B6F242A695 /* Pods-Hash2Pics_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hash2Pics_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		679AB605B5E73147FF61495B461A6752 /* AvaConstructor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AvaConstructor.swift; path = Hash2Pics/Classes/AvaConstructor.swift; sourceTree = "<group>"; };
-		67D640D9483B9099BBD1C08E8FE6ED1C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		67D640D9483B9099BBD1C08E8FE6ED1C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6ABB3BCCC3D65135163EEA4D7D713DE1 /* Pods-Hash2Pics_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hash2Pics_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		83C1A85AC3CAC17EDF8895E13C43A2BB /* NumberContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NumberContainer.swift; path = Hash2Pics/Classes/NumberContainer.swift; sourceTree = "<group>"; };
+		85F73B5E20E18A4F009B6CC0 /* NumbersManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersManager.swift; sourceTree = "<group>"; };
+		85F73B6020E18FFB009B6CC0 /* PictureConstructor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureConstructor.swift; sourceTree = "<group>"; };
 		92DC66D7D4602F5F2A091FCAD868E7A0 /* Pods-Hash2Pics_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Hash2Pics_Example.release.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9C28F9B7DC9D23A35A92F68791DAC1BE /* Pods-Hash2Pics_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hash2Pics_Tests.modulemap"; sourceTree = "<group>"; };
 		9C5462EA7677232998592B1FF063D764 /* Pods-Hash2Pics_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hash2Pics_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A4B9B6644BACD4BB576FE6F2AAAA96B9 /* Pods-Hash2Pics_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Hash2Pics_Example.modulemap"; sourceTree = "<group>"; };
 		A6DC4E84B187B4AA40EC1B4240B07FE2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A7DDDEBA04E3A07F43AEF33CEB2050BC /* Hash2Pics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Hash2Pics.framework; path = Hash2Pics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7DDDEBA04E3A07F43AEF33CEB2050BC /* Hash2Pics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Hash2Pics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8B0DD3947B2C5CF8E1BCA45D8A74A9E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC827CE92FB40E20FACD9134E4D30D82 /* Pods-Hash2Pics_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hash2Pics_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B6E6DD5ABB3C648F55108430A7F13F59 /* Pods-Hash2Pics_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Hash2Pics_Tests-umbrella.h"; sourceTree = "<group>"; };
 		C26D878CDB2EFEF0F86C8814745D4A4A /* Pods-Hash2Pics_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Hash2Pics_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		C8D579BA1938150BBF34AC0DC46ABFC3 /* Pods-Hash2Pics_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Hash2Pics_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D3BCCF18D87F0490BBA7A302B83202B1 /* Pods-Hash2Pics_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hash2Pics_Tests-dummy.m"; sourceTree = "<group>"; };
-		D4B830455B60EDBD71C55FE67B8078DD /* Pods_Hash2Pics_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Hash2Pics_Example.framework; path = "Pods-Hash2Pics_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DFC12DB7121D31B4394540C775242B0A /* Hash2Pics.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = Hash2Pics.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D4B830455B60EDBD71C55FE67B8078DD /* Pods_Hash2Pics_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hash2Pics_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFC12DB7121D31B4394540C775242B0A /* Hash2Pics.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = Hash2Pics.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E26C4C1E2884629768FBAB42BE25CC4E /* Pods-Hash2Pics_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Hash2Pics_Example-dummy.m"; sourceTree = "<group>"; };
-		F1C2F92E68CF45E0D62FC51852E47D2F /* Pods_Hash2Pics_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Hash2Pics_Tests.framework; path = "Pods-Hash2Pics_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C2F92E68CF45E0D62FC51852E47D2F /* Pods_Hash2Pics_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hash2Pics_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8BCF9AE2BF48B0ADBA049DF343FC591 /* Pods-Hash2Pics_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Hash2Pics_Tests-resources.sh"; sourceTree = "<group>"; };
 		FDE2107F1C9DB0720AC9C0C11F3A995D /* TextLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextLayer.swift; path = Hash2Pics/Classes/TextLayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -167,8 +167,8 @@
 		A77C65730E2E077B699EA6F9CA1CF7BF /* Hash2Pics */ = {
 			isa = PBXGroup;
 			children = (
-				679AB605B5E73147FF61495B461A6752 /* AvaConstructor.swift */,
-				83C1A85AC3CAC17EDF8895E13C43A2BB /* NumberContainer.swift */,
+				85F73B6020E18FFB009B6CC0 /* PictureConstructor.swift */,
+				85F73B5E20E18A4F009B6CC0 /* NumbersManager.swift */,
 				FDE2107F1C9DB0720AC9C0C11F3A995D /* TextLayer.swift */,
 				34030ED3E8E66D8C74E14191F689BE6B /* Pod */,
 				F43900677620D658962B797974C17F7F /* Support Files */,
@@ -357,10 +357,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61B3F91D91A38AEE322014048240389A /* AvaConstructor.swift in Sources */,
+				85F73B5F20E18A4F009B6CC0 /* NumbersManager.swift in Sources */,
 				3D253670C18D398D219646B401A9691C /* Hash2Pics-dummy.m in Sources */,
-				BC19C2688E46B97000F444C401440A45 /* NumberContainer.swift in Sources */,
 				CACAA1DC0D720DFE40A5D8BC94840394 /* TextLayer.swift in Sources */,
+				85F73B6120E18FFB009B6CC0 /* PictureConstructor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

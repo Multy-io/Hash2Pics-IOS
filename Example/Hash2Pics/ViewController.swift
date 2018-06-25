@@ -171,7 +171,7 @@ class ViewController: UIViewController {
         let address = addresses[currentIndex]
         addressLabel.text = address
         
-        let ava = AvaConstuctor().generate(diameter: avatarImageView.frame.size.width, seed: addresses[currentIndex])
+        let ava = PictureConstructor().createPicture(diameter: avatarImageView.frame.size.width, seed: addresses[currentIndex])
         guard ava != nil else {
             return
         }
