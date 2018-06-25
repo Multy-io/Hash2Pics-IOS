@@ -1,0 +1,6 @@
+framework module Hash2Pics {
+  umbrella header "Hash2Pics-umbrella.h"
+
+  export *
+  module * { export * }
+}
