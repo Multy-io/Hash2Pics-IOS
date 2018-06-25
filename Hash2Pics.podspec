@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Hash2Pics'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Lib for creating crypto avatars.'
 
 # This description is used to generate tags and improve search results.
