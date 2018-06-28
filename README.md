@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/Hash2Pics.svg?style=flat)](https://cocoapods.org/pods/Hash2Pics)
 [![Platform](https://img.shields.io/cocoapods/p/Hash2Pics.svg?style=flat)](https://cocoapods.org/pods/Hash2Pics)
 
-<img src="https://raw.githubusercontent.com/Pidji/Hash2Pics-IOS/master/Images/hash2pics.gif" width="344" height="320" />
+<img src="https://raw.githubusercontent.com/Pidji/Hash2Pics-IOS/master/Images/h2p.gif" width="342" height="320" />
 
 ## Requirements
 
