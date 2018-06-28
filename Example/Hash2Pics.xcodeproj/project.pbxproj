@@ -13,7 +13,6 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		853AF41420E504FC00DA4141 /* h2p_header.png in Resources */ = {isa = PBXBuildFile; fileRef = 853AF41320E504FC00DA4141 /* h2p_header.png */; };
 		A922BE18B9C99AC65AC49DDE /* Pods_Hash2Pics_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAAB1EA0F30897573D20FAA1 /* Pods_Hash2Pics_Tests.framework */; };
 		ED9B3371D3B4CF2F7D34F082 /* Pods_Hash2Pics_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9978105D7C1D1BAAC8F3C0AD /* Pods_Hash2Pics_Example.framework */; };
 /* End PBXBuildFile section */
@@ -41,7 +40,6 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		79AF97BFC39ABA5C82FCD0C3 /* Hash2Pics.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Hash2Pics.podspec; path = ../Hash2Pics.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		853AF41320E504FC00DA4141 /* h2p_header.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = h2p_header.png; sourceTree = "<group>"; };
 		96FAEDF0D65848D3B77EEBA5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9978105D7C1D1BAAC8F3C0AD /* Pods_Hash2Pics_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hash2Pics_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB323C9E4002164D14FF3A11 /* Pods-Hash2Pics_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hash2Pics_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hash2Pics_Tests/Pods-Hash2Pics_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,7 +118,6 @@
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
-				853AF41320E504FC00DA4141 /* h2p_header.png */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for Hash2Pics";
@@ -251,7 +248,6 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
-				853AF41420E504FC00DA4141 /* h2p_header.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
