@@ -10,11 +10,12 @@ import UIKit
 import Hash2Pics
 
 class ViewController: UIViewController {
-    @IBOutlet weak var addressLabel: UILabel!
-    @IBOutlet weak var avatarImageView: UIImageView!
+    
+    @IBOutlet weak var pictureImageView: UIImageView!
+    @IBOutlet weak var hashLabel: UILabel!
     
     
-    let addresses = ["1KpCMHzox8ykqUbPXvZQeFNLhk1VT52SA3",
+    let hashList = ["1KpCMHzox8ykqUbPXvZQeFNLhk1VT52SA3",
                      "1MHFB1WdnAcGhny6gmBPBom3k2tzwx9odK",
                      "155fiyuVUZBKokthobpV15wX2tWcnx4QJV",
                      "13a9pYjsDHn1BbDp5xCGNpUhBKzP3DnYmS",
@@ -168,21 +169,21 @@ class ViewController: UIViewController {
     }
     
     func updateUI() {
-        let address = addresses[currentIndex]
-        addressLabel.text = address
+        let hash = hashList[currentIndex]
+        hashLabel.text = hash
         
-        let ava = PictureConstructor().createPicture(diameter: avatarImageView.frame.size.width, seed: addresses[currentIndex])
-        guard ava != nil else {
+        let pic = PictureConstructor().createPicture(diameter: pictureImageView.frame.size.width, seed: hash)
+        guard pic != nil else {
             return
         }
         
-        avatarImageView.image = ava!
-        avatarImageView.layer.shadowRadius = 10
-        avatarImageView.layer.shadowOpacity = 0.5
+        pictureImageView.image = pic!
+        pictureImageView.layer.shadowRadius = 10
+        pictureImageView.layer.shadowOpacity = 0.5
     }
     
     @IBAction func nextAction(_ sender: Any) {
-        if currentIndex == (addresses.count - 1) {
+        if currentIndex == (hashList.count - 1) {
             currentIndex = 0
         } else {
             currentIndex += 1

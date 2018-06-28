@@ -24,18 +24,12 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qXI-4I-Woq">
-                                <rect key="frame" x="87" y="233" width="200" height="200"/>
+                                <rect key="frame" x="87" y="263.5" width="200" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="Luu-5Z-PH1"/>
                                     <constraint firstAttribute="width" secondItem="qXI-4I-Woq" secondAttribute="height" multiplier="1:1" id="Un7-Qn-zQz"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gtS-Wl-IBy">
-                                <rect key="frame" x="16" y="204" width="343" height="21"/>
-                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JU6-au-67u">
                                 <rect key="frame" x="112" y="587" width="150" height="60"/>
                                 <constraints>
@@ -50,21 +44,36 @@
                                     <action selector="nextAction:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="SkD-jw-69p"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chevron" translatesAutoresizingMaskIntoConstraints="NO" id="d1o-2U-POb">
+                                <rect key="frame" x="175" y="222.5" width="25" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="25" id="KgY-Jg-3TA"/>
+                                    <constraint firstAttribute="height" constant="25" id="zgJ-A0-heQ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="gtS-Wl-IBy" userLabel="Hash Label">
+                                <rect key="frame" x="16" y="185.5" width="343" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.011764705882352941" green="0.49803921568627452" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="JU6-au-67u" secondAttribute="bottom" constant="20" id="FVQ-cY-1EK"/>
                             <constraint firstItem="gtS-Wl-IBy" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="XmN-0T-RAy"/>
+                            <constraint firstItem="qXI-4I-Woq" firstAttribute="top" secondItem="d1o-2U-POb" secondAttribute="bottom" constant="16" id="g1j-i5-CK6"/>
                             <constraint firstItem="qXI-4I-Woq" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="hgt-IO-9SJ"/>
-                            <constraint firstItem="qXI-4I-Woq" firstAttribute="top" secondItem="gtS-Wl-IBy" secondAttribute="bottom" constant="8" id="peX-fu-ynU"/>
-                            <constraint firstItem="qXI-4I-Woq" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="qqt-Wu-S0M"/>
+                            <constraint firstItem="d1o-2U-POb" firstAttribute="centerX" secondItem="qXI-4I-Woq" secondAttribute="centerX" id="i57-Fp-32e"/>
+                            <constraint firstItem="qXI-4I-Woq" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" constant="30" id="qqt-Wu-S0M"/>
+                            <constraint firstItem="d1o-2U-POb" firstAttribute="top" secondItem="gtS-Wl-IBy" secondAttribute="bottom" constant="16" id="rXk-gU-5cX"/>
                             <constraint firstItem="JU6-au-67u" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="tFU-nJ-Qfr"/>
                             <constraint firstItem="gtS-Wl-IBy" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" id="zJR-Cw-z8R"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="addressLabel" destination="gtS-Wl-IBy" id="Wxw-kd-g6O"/>
-                        <outlet property="avatarImageView" destination="qXI-4I-Woq" id="fia-sh-xyy"/>
+                        <outlet property="hashLabel" destination="gtS-Wl-IBy" id="edr-oA-y7f"/>
+                        <outlet property="pictureImageView" destination="qXI-4I-Woq" id="fZr-C0-Feb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
@@ -72,4 +81,7 @@
             <point key="canvasLocation" x="117.59999999999999" y="118.29085457271366"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="chevron" width="25" height="25"/>
+    </resources>
 </document>
