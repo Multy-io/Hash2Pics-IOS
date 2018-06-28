@@ -5,9 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/Hash2Pics.svg?style=flat)](https://cocoapods.org/pods/Hash2Pics)
 [![Platform](https://img.shields.io/cocoapods/p/Hash2Pics.svg?style=flat)](https://cocoapods.org/pods/Hash2Pics)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+![](https://github.com/Pidji/Hash2Pics-IOS/tree/master/Example/Hash2Pics/hash2pics.gif)
 
 ## Requirements
 
@@ -25,9 +23,21 @@ it, simply add the following line to your Podfile:
 pod 'Hash2Pics'
 ```
 
-## Author
+## Usage
 
-Pidji, alexeevartsiom@gmail.com
+Simply pass hash and diameter to create picture
+
+```
+let pic = PictureConstructor().createPicture(diameter: 200, seed: "YOUR_HASH")
+```
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Authors
+
+This library developed by guys from Multy - best open-source cryptocurrency wallet, team@multy.io
 
 ## License
 
