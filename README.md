@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/Hash2Pics.svg?style=flat)](https://cocoapods.org/pods/Hash2Pics)
 [![Platform](https://img.shields.io/cocoapods/p/Hash2Pics.svg?style=flat)](https://cocoapods.org/pods/Hash2Pics)
 
-<img src="https://raw.githubusercontent.com/Pidji/Hash2Pics-IOS/master/Images/h2p.gif" width="342" height="320" />
+<img src="https://raw.githubusercontent.com/Multy-io/Hash2Pics-IOS/master/Images/h2p.gif" width="342" height="320" />
 
 ## Requirements
 
@@ -37,7 +37,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Authors
 
-This library developed by guys from Multy - best open-source cryptocurrency wallet, team@multy.io
+This library developed by guys from Multy - best open-source multy-blockchain wallet, team@multy.io
 
 ## License
 
