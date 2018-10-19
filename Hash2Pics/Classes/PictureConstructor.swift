@@ -115,7 +115,7 @@ public class PictureConstructor: NSObject {
         let result = TextLayer()
         result.frame = CGRect(x: 0, y: 0, width: diameterInPixels, height: diameterInPixels)
         result.string = text
-        result.alignmentMode = kCAAlignmentCenter
+        result.alignmentMode = CATextLayerAlignmentMode.center
         let fontSize = 0.4 * diameterInPixels
         result.font = UIFont(name: "AvenirNext-Bold", size: fontSize)
         result.fontSize = fontSize

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'Hash2Pics'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'Lib for creating crypto avatars.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ TODO: This is open-source lib for creating awesome avatars from any crypto addre
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'Hash2Pics/Classes/**/*'
-  s.swift_version = '4.1'
+  s.swift_version = '4.2'
   # s.resource_bundles = {
   #   'Hash2Pics' => ['Hash2Pics/Assets/*.png']
   # }

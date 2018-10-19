@@ -12,7 +12,7 @@
 | Target | Version |
 | ------- | -------- |
 | iOS     | => 8.0  |
-|Swift    | => 4.1  |
+|Swift    | => 4.2  |
 
 ## Installation
 
@@ -37,7 +37,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Authors
 
-This library developed by guys from Multy - best open-source multy-blockchain wallet, team@multy.io
+This library developed by guys from Multy - best open-source multi-blockchain wallet, team@multy.io
 
 ## License
 
